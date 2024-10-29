@@ -16,12 +16,12 @@ const router = createBrowserRouter([
     errorElement: <NotFoundPage/>
   },
   {
-    path: "/routes/ColorPalettesPage.jsx",
+    path: "ColorPalettesPage",
     element: <ColorPalletePage/>,
     errorElement: <NotFoundPage/>
   },
   {
-    path: "/routes/InputsPage.jsx",
+    path: "InputsPage",
     element: <InputsPage/>,
     errorElement: <NotFoundPage/>
   }
