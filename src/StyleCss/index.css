@@ -1,0 +1,441 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  background-color: #23282e;
+  height: 100%;
+  padding: 2rem;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 2rem 5rem 2rem;
+  background: #2c3e50;
+  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  
+  background: linear-gradient(to right, #3498db, #2c3e50); 
+  color: rgb(12, 11, 11);
+}
+/* ------------------------------------Style Container LOgo------------------------- */
+
+.container-logo{
+  width: 10rem;
+  position: absolute;
+  top: 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.span{
+  margin-left: 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.icon-recycle{
+  width: 1.8rem;
+  height: 1.8rem;
+  color:  #07223d ;
+}
+/* ----------------------------------style header info---------------------------- */
+.title{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 0 0 3rem 0;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.principal-paragraph{
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  width: 30rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 0 1.5rem 0;
+  color: #fff;
+}
+.container-button-pages{
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.page-link{
+  position: relative;
+  text-decoration: none;
+  padding: 0.5rem 2rem 0.5rem 3.2rem ;
+  background-color: #23282e;
+  color: #e6e6e6;
+  letter-spacing: 2px;
+  margin: 1rem;
+  border-radius: 10000px;
+  line-height: 20px;
+}
+.icon{
+  position: absolute;
+  left: 1.2rem ;
+  top: 0.6rem;
+}
+/* -------------------------style Container Buttons------------------------ */
+.section-buttons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.container-button{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  padding: 1rem;
+   border: 1px solid #e2e2e21a; 
+}
+.btn{
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  font-family:sans-serif;
+  cursor: pointer;
+}
+.btn-title{
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #ebebeb;
+}
+
+/* ---------------------------------------Style Message-------------------------------------- */
+.icon-close{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+.span-copy{
+  position: relative;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0c3d74;
+  color: #fff;
+  position: fixed;
+  padding: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1.5rem;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  z-index: 1000000;
+}
+
+/* ------------------------------------Footer Style---------------------------------- */
+.footer{
+  padding: 2rem;
+  background-color: rgb(21, 21, 22);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-made{
+  width: 20rem;
+  position: relative;
+  padding: 0.5rem 1rem;
+}
+.made{
+  text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #eeeeee;
+}
+.logo-footer{
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  right: 2.5rem;
+  top: 0.1rem;
+  z-index: 100;
+}
+.container-redes{
+  position: relative;
+  z-index: 100000000;
+}
+.a-icon-redes{
+  text-decoration: none;
+  color: #eeeeee;
+}
+.icon-redes{
+  width: 1.4rem;
+  height: 1.4rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+/* ------------------------------style paragraph Buttons------------------------------ */
+.container-paragraph-buttons{
+  margin: 0 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  border: 1px solid rgba(245, 245, 245, 0.089);
+}
+.paragraph-buttons{
+  max-width: 60rem;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-family: 'DM Mono', monospace;
+  border-radius: 5px;
+}
+.sub-title{
+  margin: 0.5rem 0 0 1rem;
+  color: #fff;
+  font-family: 'Saira Stencil One', system-ui;
+  letter-spacing: 1px;
+}
+
+/* ----------------------------------Style buttons-------------------------------- */
+.btn-0{
+ border-radius: 4px;
+ font-size: 16px;
+ font-weight: 500;
+ background: #e50914;
+ color: #fff;
+ border: none;
+}
+.btn-1{
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 20px;
+  background: rgb(12, 97, 140);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-family:"Amazon Ember",Arial,sans-serif
+}
+.btn-2{
+  border: none;
+  background-color: #f47521;
+  color: rgb(218, 215, 210);
+  font-family: Lato, Helvetica Neue, helvetica, sans-serif;
+  font-weight: 900;
+  transition: 0.3s;
+  font-size: 1rem;
+
+}
+.btn-3{
+  color: rgb(218, 215, 210);
+  border-color: rgb(133, 123, 109);
+  background-color: rgb(0, 190, 80);
+  font-family: Euclid Circular A;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+.btn-4{
+  font-size: 0.9rem;
+  background-color: rgb(51, 55, 58);
+  padding: 8px 30px;
+  border-radius: 48px;
+  color: rgb(114, 196, 255);
+  text-transform: uppercase;
+  border: none; 
+  font-weight: 800;
+}
+.btn-5{
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 30px;
+  background-color: #4100a1;;
+  color: white;
+  padding: 0 20px;
+}
+.btn-6{
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgb(144, 120, 0);
+  border: 2px outset rgb(179, 150, 0);
+  font-size: 16px;
+  height: 31px;
+  padding: 0 60px;
+  text-align: center;
+  font-weight: 500;
+  color: #ffeded;
+}
+.btn-7{
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background: #000000;
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding: 14px 24px 16px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  transition: transform 200ms,background 200ms;
+}
+.btn-8{
+  color: rgb(214, 211, 205);
+  border-color: initial;
+  background-color: rgb(129, 104, 2);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+.btn-9 {
+  background-color: #1c6b2b;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+}
+.btn-10{
+  background-color: rgb(134, 26, 55);
+  color: rgb(232, 230, 227);
+  border-radius: 4px;
+  border: 1px solid rgb(163, 32, 67);
+  padding: 8px 60px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+.btn-11{
+  background-image: linear-gradient(270deg, rgb(124, 0, 3) 0px, rgb(49, 53, 55) 100%);
+  color: rgb(232, 230, 227);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 23px;
+}
+.btn-12{
+  background-color: rgb(160, 13, 37);
+  color: rgb(232, 230, 227);
+  border: none;
+  padding: 10px 22px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: -apple-system, blinkmacsystemfont, San Francisco, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+.btn-13{
+  background-color: #fff;
+  color: rgba(0, 0, 0, .87);
+  border: none;
+  border-radius: 4px;
+  padding: 14px 30px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.btn-14{
+  background-color: rgb(165, 36, 32);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+
+/* ------------------------------------Hover Buttons-------------------------------------- */
+.btn-2:hover{
+  background-color: rgb(182, 78, 9);
+  transition: 0.3s;
+}
+.btn-3:hover{
+  transition: 0.2s;
+  border-radius: 48px;
+}
+.btn-4:hover{
+  text-decoration:underline;
+}
+.btn-5:hover {
+  background-color: #4000a1c4;
+}
+.btn-6:hover{
+  background: #c9aa11;
+  border-color: #c9aa11;
+  color: #fff;
+}
+.btn-7:hover{
+  transform: translateY(-2px);
+}
+.btn-8:hover{
+  background-color: #776002;
+}
+.btn-9:hover{
+  background-color: #27943b;
+}
+.btn-10:hover{
+  border: 1px solid rgb(41, 40, 40);
+}
+.btn-11:hover{
+  background-image: linear-gradient(270deg, rgb(139, 2, 4) 0px, rgb(64, 69, 71) 100%);
+}
+.btn-12:hover{
+  background-color: rgb(192, 19, 48);
+}
+.btn-14:hover{
+  background-color: rgb(169, 16, 8);
+}
+
+
+
+
+
+/* -------------------------------------- Style Page Not Found --------------------------- */
+
+.div-error{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #23282e;
+  height:100vh;
+  width: 100vw;
+  padding-top: 25rem;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #f0ebeb;
+}
+.button-home{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  width: max-content;
+  margin: 1rem auto;
+}
+.button-home:hover{
+  background-color: #585858;
+}
+
+.page-link:hover{
+  text-decoration: line-through;
+}
+
